@@ -61,7 +61,7 @@ button, .button {
   margin: 0 auto;
   border: none;
   font-family: inherit;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   color: white;
   text-decoration: none;
   padding: 10px;
