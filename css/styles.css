@@ -102,6 +102,9 @@ button:hover, button:focus, .button:hover, .button:focus{
   flex-direction: column;
   align-items: center;
 }
+.intro{
+  display: block;
+}
 /*--Header and Navigation flex box end--*/
 
 /*--grid beginning--*/
@@ -145,6 +148,23 @@ button:hover, button:focus, .button:hover, .button:focus{
 h1 {
   font-size: 24px;
 }
+.profile_portrait{
+  width: 150px;
+}
+p {
+  font-size: 12px;
+}
+a {
+  font-size: 18px;
+}
+}
+@media all and (min-width: 500px) and (max-width: 1000px) {
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 24px;
+  }
 }
 /*--animation--*/
 @keyframes shrink {
