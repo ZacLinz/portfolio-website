@@ -172,6 +172,9 @@ p {
 a {
   font-size: 18px;
 }
+.logo{
+  width: 50px;
+}
 }
 @media all and (min-width: 500px) and (max-width: 1000px) {
   h1 {
