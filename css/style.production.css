@@ -81,6 +81,21 @@ button:hover, button:focus, .button:hover, .button:focus{
   cursor: pointer;
   opacity: 0.8;
 }
+.contact{
+  padding-bottom: 50px;
+  padding-left: 20px
+}
+#contact-email, #contact-phone {
+  margin: 20px;
+}
+.message{
+  padding-bottom: 100px;
+}
+
+.standard-label{
+  padding: 20px;
+  padding-bottom: 20px
+}
 
 /*--Header and Navigation flex box--*/
 .page-header{
