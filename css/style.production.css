@@ -179,6 +179,9 @@ p {
 a {
   font-size: 18px;
 }
+li{
+  font-size: 12px;
+}
 .logo{
   width: 50px;
 }
