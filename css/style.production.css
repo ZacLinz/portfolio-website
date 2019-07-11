@@ -48,7 +48,7 @@ table{
 }
 
 .screenshot{
-  max-width: 100px;
+  max-width: 100%;
   height: auto;
 }
 
