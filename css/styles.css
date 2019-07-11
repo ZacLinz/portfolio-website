@@ -54,8 +54,8 @@ table{
 }
 
 .screenshot{
-  width: 100px;
-  height: 41px;
+  max-width: 100px;
+  height: auto;
 }
 
 .saskatoon{
