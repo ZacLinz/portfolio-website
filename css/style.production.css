@@ -173,6 +173,12 @@ h1 {
 .profile_portrait{
   width: 150px;
 }
+
+.screenshot{
+  width: 100px;
+  height: 41px;
+}
+
 p {
   font-size: 12px;
 }

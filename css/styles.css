@@ -52,6 +52,12 @@ table{
   margin-right: 40px;
   border-radius: 50%;
 }
+
+.screenshot{
+  width: 100px;
+  height: 41px;
+}
+
 .saskatoon{
   display: block;
   padding-top: 20px;
