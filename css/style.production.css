@@ -46,6 +46,12 @@ table{
   margin-right: 40px;
   border-radius: 50%;
 }
+
+.screenshot{
+  max-width: 100px;
+  height: auto;
+}
+
 .saskatoon{
   display: block;
   padding-top: 20px;
@@ -173,12 +179,6 @@ h1 {
 .profile_portrait{
   width: 150px;
 }
-
-.screenshot{
-  max-width: 100px;
-  height: auto;
-}
-
 p {
   font-size: 12px;
 }
