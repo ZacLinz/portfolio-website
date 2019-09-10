@@ -134,9 +134,14 @@ button:hover, button:focus, .button:hover, .button:focus{
   width: 100%;
   flex-direction: column;
   align-items: center;
+  margin-top: 5px;
 }
 .intro{
   display: block;
+}
+
+.submit-button{
+  margin-top: 20px
 }
 /*--Header and Navigation flex box end--*/
 
