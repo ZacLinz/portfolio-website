@@ -36,6 +36,11 @@ table{
 .link-img{
   width: 30px;
 }
+
+.title{
+    margin: auto;
+}
+
 .profile{
   max-width: 700px;
   margin: 0 auto;
