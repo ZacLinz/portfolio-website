@@ -1,13 +1,22 @@
 /*--color and fonts--*/
+
 body{
-  background-color: #ebe5d5;
+  background-color: #ffffff;
   font-family: 'roboto condensed', sans-serif;
   font-size: 30px;
   line-height: 32px;
 }
+
 header{
-  line-height: 32px;
+  background-color: #ffbf00;
+  position: fixed;
+  top: 0;
 }
+
+section {
+  display: block;
+}
+
 a {
   color: #4caf50;
 }
@@ -33,16 +42,22 @@ table{
   padding-bottom: 20px
 }
 /*--positioning--*/
+
+.container{
+  height: 180px;
+}
 .link-img{
   width: 30px;
 }
-
+.logo{
+  height: 100px;
+}
 .title{
     margin: auto;
-    margin-bottom: 25px;
-    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
 }
-
 .profile{
   max-width: 700px;
   margin: 0 auto;
@@ -137,6 +152,7 @@ button:hover, button:focus, .button:hover, .button:focus{
   flex-direction: column;
   align-items: center;
   margin-top: 5px;
+  font-size: 24px;
 }
 
 .intro{
@@ -152,10 +168,16 @@ button:hover, button:focus, .button:hover, .button:focus{
 .grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 40px;
+  width: auto;
+  margin: 50px;
 }
 .grid__item{
   background-color: #ffe5ec;
+  border-radius: 2px;
+  padding: 5px;
+  width: 550px;
+  box-shadow: -2px 3px 12px 3px rgba(255,229,236,1);
 }
 /*--grid finished--*/
 
