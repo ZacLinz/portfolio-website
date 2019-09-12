@@ -221,6 +221,12 @@ li{
 .logo{
   width: 50px;
 }
+.saskatoon{
+  width: 100px;
+}
+.grid__item{
+  width: 250px;
+}
 }
 @media all and (min-width: 500px) and (max-width: 1000px) {
   h1 {
