@@ -51,7 +51,7 @@ table{
   margin: 0 auto;
   width: 560px;
   background-color: #f8d568;
-  padding: 10px;
+  padding: 15px;
   background-color: #f8d568;
   border-radius: 2px;
   box-shadow: -2px 3px 12px 3px rgba(255,229,236,1);
@@ -316,6 +316,11 @@ header{
   padding: 1px;
   border-radius: 1px;
 }
+.centerItem{
+  width: 350px;
+  padding: 5px;
+}
+
 }
 @media all and (min-width: 500px) and (max-width: 1000px) {
   h1 {
