@@ -18,7 +18,7 @@ section {
 }
 
 a {
-  color: #4caf50;
+  color: #79A2f3;
 }
 
 a:hover{
@@ -84,13 +84,24 @@ table{
 }
 
 .screenshot{
-  max-width: 100%;
+  width: 500px;
+  height: auto;
+  margin: 10px;
+  transition: width 1s;
+}
+.screenshot:hover, .screenshot:focus{
+  width: 530px;
   height: auto;
 }
 .screenshotHigh{
-  max-width: 100%;
+  width: 380px;
   height: auto;
   margin-left: 85px;
+  transition: width 1s;
+}
+.screenshotHigh:hover, .screenshotHigh:focus{
+  width: 400px;
+  height: auto;
 }
 
 .saskatoon{
@@ -102,7 +113,7 @@ button {
   margin: 0 auto;
   border: none;
   font-family: inherit;
-  background-color: #4caf50;
+  background-color: #EFF379;
   color: white;
   text-decoration: none;
   padding: 10px;
@@ -115,16 +126,34 @@ button {
   margin: 0 auto;
   border: none;
   font-family: inherit;
-  background-color: #4caf50;
+  background-color: #EFF379;
   color: white;
   text-decoration: none;
-  padding: 10px;
+  padding: 5px;
+  margin-bottom: 15px;
   border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   transition-duration: 0.5s;
   transition-property: opacity;
 }
-button:hover, button:focus, .button:hover, .button:focus{
+.navButton{
+  margin: 0 auto;
+  border: none;
+  font-family: inherit;
+  background-color: #EFF379;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  transition-duration: 0.5s;
+  transition-property: opacity;
+}
+.buttonBreak{
+  margin-bottom: 20px;
+}
+button:hover, button:focus, .button:hover, .button:focus, .navButton:hover, .navButton:focus{
   cursor: pointer;
   opacity: 0.8;
 }
@@ -261,6 +290,32 @@ header{
 .container{
   height: 140px
 }
+
+.screenshot{
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  transition: width 1s;
+}
+.screenshot:hover, .screenshot:focus{
+  width: 220px;
+  height: auto;
+}
+.screenshotHigh{
+  width: 200px;
+  height: auto;
+  margin-left: 25px;
+  transition: width 1s;
+}
+.screenshotHigh:hover, .screenshotHigh:focus{
+  width: 215px;
+  height: auto;
+}
+.navButton{
+  font-size: 15px;
+  padding: 1px;
+  border-radius: 1px;
+}
 }
 @media all and (min-width: 500px) and (max-width: 1000px) {
   h1 {
@@ -274,6 +329,14 @@ header{
   }
 }
 /*--animation--*/
+@keyframes grow{
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
 @keyframes shrink {
   from {
     transform: scale(1);
