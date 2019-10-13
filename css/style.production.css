@@ -257,16 +257,17 @@ button:hover, button:focus, .button:hover, .button:focus, .navButton:hover, .nav
 }
 
 h1 {
-  font-size: 44px;
+  font-size: 40px;
 }
 h2 {
   font-size: 18px;
 }
 .profile_portrait{
-  width: 150px;
+  width: 100px;
+  margin: 10px;
 }
 p {
-  font-size: 12px;
+  font-size: 18px;
 }
 a {
   font-size: 18px;
