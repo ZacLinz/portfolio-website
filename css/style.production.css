@@ -83,26 +83,27 @@ table{
 }
 
 .screenshot{
-  width: 500px;
-  height: 150px;
-  margin: 5px;
-  margin-left: 25px;
-  margin-right: 25px;
+  max-width: 100%;
+  height: auto;
   transition: height 1s;
   align-items: center;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+
 }
 .screenshot:hover, .screenshot:focus{
-  height: 175px;
+  cursor: pointer;
+  opacity: 0.9
 }
 .screenshotHigh{
-  width: 380px;
+  max-width: 100%;
   height: auto;
-  margin-left: 85px;
-  transition: width 1s;
+  transition-property: opacity;
+  transition-duration: 0.5s;
 }
 .screenshotHigh:hover, .screenshotHigh:focus{
-  width: 400px;
-  height: auto;
+  cursor: pointer;
+  opacity: 0.9
 }
 
 .saskatoon{
@@ -259,6 +260,15 @@ button:hover, button:focus, .button:hover, .button:focus, .navButton:hover, .nav
   align-items: flex-end;
 }
 
+@media all and (max-width: 1800px){
+  .grid__item{
+    width: 400px;
+  }
+  .button{
+    font-size: 18px;
+  }
+}
+
 @media all and (max-width: 1500px) {
   .grid {
     grid-template-columns: 1fr 1fr;
@@ -270,19 +280,80 @@ button:hover, button:focus, .button:hover, .button:focus, .navButton:hover, .nav
     grid-row: auto / auto;
   }
 
-  /*--h1 {
-    font-size: 30px;
+  h1 {
+    font-size: 40px;
   }
   h2 {
-    font-size: 18px;
+    font-size: 28px;
   }
   p {
     font-size: 24px;
-  } -*/
+  }
+}
 
+@media all and (max-width: 1000px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  .grid__item :last-child {
+    grid-column: auto / auto;
+    grid-row: auto / auto;
+  }
+  .grid__item{
+    width: 750px;
+  }
+  .button {
+    margin: 0 auto;
+    border: none;
+    font-size: 20px;
+    font-family: inherit;
+    background-color: #ffee9c;
+    color: gray;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    transition-duration: 0.5s;
+    transition-property: opacity;
+  }
+  .navButton{
+    margin: 0 auto;
+    border: none;
+    font-size: 20px;
+    font-family: inherit;
+    background-color: #ffee9c;
+    color: gray;
+    text-decoration: none;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    transition-duration: 0.5s;
+    transition-property: opacity;
+  }
+  button:hover, button:focus, .button:hover, .button:focus, .navButton:hover, .navButton:focus{
+    cursor: pointer;
+    opacity: 0.8;
+    font-weight: bold;
+  }
+  .logo{
+    width:150px;
+    height: auto;
+    margin: 0;
+  }
+  ul{
+    padding: 2px;
+    width: auto;
+  }
+  li{
+    margin: 3px;
+    margin-left: 3px;
+  }
 
 }
-@media all and (max-width: 500px) {
+@media all and (max-width: 700px) {
 .logo{
   display: none;
 }
