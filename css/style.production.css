@@ -127,7 +127,7 @@ button {
   margin: 0 auto;
   border: none;
   font-family: inherit;
-  background-color: #FFFB00;
+  background-color: #ffee9c;
   color: gray;
   text-decoration: none;
   padding: 5px;
@@ -141,7 +141,7 @@ button {
   margin: 0 auto;
   border: none;
   font-family: inherit;
-  background-color: #FFFB00;
+  background-color: #ffee9c;
   color: gray;
   text-decoration: none;
   padding: 15px;
@@ -150,7 +150,6 @@ button {
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   transition-duration: 0.5s;
   transition-property: opacity;
-  font-weight: bold;
 }
 .buttonBreak{
   margin-bottom: 20px;
