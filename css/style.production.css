@@ -258,14 +258,38 @@ button:hover, button:focus, .button:hover, .button:focus, .navButton:hover, .nav
   width: 30px;
   align-items: flex-end;
 }
+
+@media all and (max-width: 1500px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .grid__item :last-child {
+    grid-column: auto / auto;
+    grid-row: auto / auto;
+  }
+
+  /*--h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 24px;
+  } -*/
+
+
+}
 @media all and (max-width: 500px) {
 .logo{
   display: none;
 }
-  .grid {
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-  }
+.grid {
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
 
 .grid__item :last-child {
   grid-column: auto / auto;
@@ -348,17 +372,7 @@ header{
 }
 
 }
-@media all and (min-width: 500px) and (max-width: 1000px) {
-  h1 {
-    font-size: 30px;
-  }
-  h2 {
-    font-size: 18px;
-  }
-  p {
-    font-size: 24px;
-  }
-}
+
 /*--animation--*/
 @keyframes grow{
   from {
