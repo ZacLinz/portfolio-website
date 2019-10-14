@@ -84,15 +84,15 @@ table{
 
 .screenshot{
   width: 500px;
-  height: auto;
-  margin: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  transition: width 1s;
+  height: 150px;
+  margin: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  transition: height 1s;
+  align-items: center;
 }
 .screenshot:hover, .screenshot:focus{
-  width: 530px;
-  height: auto;
+  height: 175px;
 }
 .screenshotHigh{
   width: 380px;
@@ -127,7 +127,7 @@ button {
   margin: 0 auto;
   border: none;
   font-family: inherit;
-  background-color: #EFF379;
+  background-color: #FFFB00;
   color: white;
   text-decoration: none;
   padding: 5px;
@@ -141,7 +141,7 @@ button {
   margin: 0 auto;
   border: none;
   font-family: inherit;
-  background-color: #EFF379;
+  background-color: #FFFB00;
   color: white;
   text-decoration: none;
   padding: 15px;
@@ -239,6 +239,7 @@ button:hover, button:focus, .button:hover, .button:focus, .navButton:hover, .nav
   padding: 5px;
   width: 550px;
   box-shadow: -2px 3px 12px 3px rgba(255,229,236,1);
+  justify-content: center;
 }
 /*--grid finished--*/
 
