@@ -40,11 +40,14 @@ table{
 }
 /*--positioning--*/
 .content-item{
-  padding: 10px;
+  padding: 25px;
+}
+td{
+  padding: 5px;
 }
 .centerItem{
   margin: 0 auto;
-  width: 560px;
+  width: 800px;
   background-color: #f8d568;
   padding: 15px;
   background-color: #f8d568;
@@ -100,10 +103,6 @@ table{
   height: auto;
   transition-property: opacity;
   transition-duration: 0.5s;
-}
-.screenshotHigh:hover, .screenshotHigh:focus{
-  cursor: pointer;
-  opacity: 0.9
 }
 
 .saskatoon{
