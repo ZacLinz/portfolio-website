@@ -260,6 +260,9 @@ button:hover, button:focus, .button:hover, .button:focus, .navButton:hover, .nav
 }
 
 @media all and (max-width: 1800px){
+  .grid{
+    width: auto;
+  }
   .grid__item{
     width: 400px;
   }
@@ -272,6 +275,7 @@ button:hover, button:focus, .button:hover, .button:focus, .navButton:hover, .nav
   .grid {
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
+    width: auto;
   }
 
   .grid__item :last-child {
