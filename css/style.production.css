@@ -240,6 +240,39 @@ button:hover, button:focus, .button:hover, .button:focus, .navButton:hover, .nav
   box-shadow: -2px 3px 12px 3px rgba(255,229,236,1);
   justify-content: center;
 }
+.studyBox{
+  margin: 0 auto;
+  width: 1000px;
+  background-color: #f8d568;
+  padding: 15px;
+  border-radius: 2px;
+  box-shadow: -2px 3px 12px 3px rgba(255,229,236,1);
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.studyText{
+  display:inline;
+  padding: 3px;
+  font-size: 24px;
+}
+
+.studyImage{
+  display: inline;
+  width:250px;
+  height: auto;
+  float: right;
+  margin: 2px
+}
+
+.studyImageLeft{
+  display: inline;
+  width:250px;
+  height: auto;
+  float: left;
+  margin: 5px
+}
+
+
 /*--grid finished--*/
 
 /*--- footer flex box--*/
@@ -353,6 +386,29 @@ button:hover, button:focus, .button:hover, .button:focus, .navButton:hover, .nav
   li{
     margin: 3px;
     margin-left: 3px;
+  }
+  .studyBox{
+    margin: 0 auto;
+    width: 500px;
+    background-color: #f8d568;
+    padding: 15px;
+    border-radius: 2px;
+    box-shadow: -2px 3px 12px 3px rgba(255,229,236,1);
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  .studyText{
+    display:inline;
+    padding: 3px;
+    font-size: 18px;
+  }
+
+  .studyImage{
+    display: inline;
+    width:150px;
+    height: auto;
+    float: right;
+    margin: 2px
   }
 
 }
